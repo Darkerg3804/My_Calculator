@@ -1,0 +1,42 @@
+.button {
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  background: #3d3d3d;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #4d4d4d;
+}
+
+.button.operator {
+  background: #f59e0b;
+  color: white;
+}
+
+.button.operator:hover {
+  background: #d97706;
+}
+
+.button.equals {
+  background: #3b82f6;
+  color: white;
+}
+
+.button.equals:hover {
+  background: #2563eb;
+}
+
+.button.clear {
+  background: #ef4444;
+  color: white;
+}
+
+.button.clear:hover {
+  background: #dc2626;
+}

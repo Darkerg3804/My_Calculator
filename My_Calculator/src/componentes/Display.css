@@ -1,0 +1,23 @@
+.display {
+  background: #2d2d2d;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  min-height: 80px;
+}
+
+.expression {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Courier New', monospace;
+  min-height: 32px;
+}
+
+.result {
+  color: #4CAF50;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  min-height: 40px;
+}

@@ -1,0 +1,15 @@
+.button-pad {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button-row:last-child {
+  grid-template-columns: 2fr 1fr 1fr;
+}
