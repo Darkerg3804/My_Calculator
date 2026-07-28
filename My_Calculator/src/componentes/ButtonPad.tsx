@@ -24,13 +24,13 @@ const ButtonPad: React.FC<ButtonPadProps> = ({ onButtonClick }) => {
             <Button
               key={label}
               label={label}
-              onClick={() => onButtonClick(label)}
+              onClick={() => onButtonClick(label)} // ← Aquí pasamos la función
               className={
                 label === '=' ? 'equals' :
                 label === '÷' || label === '×' || label === '-' || label === '+' ? 'operator' :
                 label === 'C' ? 'clear' :
                 label === '⌫' ? 'delete' :
-                label === '√' || label === 'x²' ? 'function' :
+                label === '√' || label === '^' ? 'function' :
                 label === '(' || label === ')' ? 'parenthesis' :
                 ''
               }

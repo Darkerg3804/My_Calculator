@@ -3,7 +3,7 @@ import './Button.css'
 
 interface ButtonProps {
   label: string
-  onClick?: () => void
+  onClick?: () => void  // ← Debe tener esto
   className?: string
 }
 
