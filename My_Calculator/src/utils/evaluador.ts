@@ -1,8 +1,6 @@
 import { evaluate } from 'mathjs';
 
-// ============================================================
-// FUNCIÓN EVALUAR - Usando math.js
-// ============================================================
+
 export function evaluar(expresion: string): number | string {
   try {
     // 1. LIMPIAR: Eliminar espacios
